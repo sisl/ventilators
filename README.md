@@ -1,13 +1,17 @@
 # Optimal Control of Mechanical Ventilators with Learned Respiratory Dynamics
 
+This repository contains the code for the paper "Optimal Control of Mechanical Ventilators with Learned Respiratory Dynamics":
+
+```
 @inproceedings{ward2024optimal,
     title={Optimal Control of Mechanical Ventilators with Learned Respiratory Dynamics},
     author={Ward, Isaac R. and Asmar, Dylan M. and Arief, Mansur and Mike, Jana Krystofova and Kochenderfer, Mykel J.},
     booktitle={Proceedings of the IEEE 37th International Symposium on Computer-Based Medical Systems (CBMS)},
     year={2024},
 }
+```
 
-This repository contains the code for the paper "Optimal Control of Mechanical Ventilators with Learned Respiratory Dynamics". The code is organized as follows:
+The code is organized as follows:
 
 ```
 VENTILATORS/
