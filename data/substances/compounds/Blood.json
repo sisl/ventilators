@@ -1,0 +1,92 @@
+{
+  "Name": "Blood",
+  "Component": [{
+    "Name": "Hemoglobin",
+    "Concentration": {
+      "ScalarMassPerVolume": {
+        "Value": 3.7,
+        "Unit": "g/dL"
+      }
+    }
+  }, {
+    "Name": "Oxygen",
+    "Concentration": {
+      "ScalarMassPerVolume": {
+        "Value": 0.0314,
+        "Unit": "g/L"
+      }
+    }
+  }, {
+    "Name": "CarbonDioxide",
+    "Concentration": {
+      "ScalarMassPerVolume": {
+        "Value": 0.921,
+        "Unit": "g/L"
+      }
+    }
+  }, {
+    "Name": "Oxyhemoglobin",
+    "Concentration": {
+      "ScalarMassPerVolume": {
+        "Value": 11.1,
+        "Unit": "g/dL"
+      }
+    }
+  }, {
+    "Name": "Sodium",
+    "Concentration": {
+      "ScalarMassPerVolume": {
+        "Value": 0.322,
+        "Unit": "g/dL"
+      }
+    }
+  }, {
+    "Name": "Albumin",
+    "Concentration": {
+      "ScalarMassPerVolume": {
+        "Value": 4.5,
+        "Unit": "g/dL"
+      }
+    }
+  }, {
+    "Name": "Urea",
+    "Concentration": {
+      "ScalarMassPerVolume": {
+        "Value": 0.0257,
+        "Unit": "g/dL"
+      }
+    }
+  }, {
+    "Name": "Glucose",
+    "Concentration": {
+      "ScalarMassPerVolume": {
+        "Value": 0.08,
+        "Unit": "g/dL"
+      }
+    }
+  }, {
+    "Name": "Tristearin",
+    "Concentration": {
+      "ScalarMassPerVolume": {
+        "Value": 0.107,
+        "Unit": "g/dL"
+      }
+    }
+  }, {
+    "Name": "Calcium",
+    "Concentration": {
+      "ScalarMassPerVolume": {
+        "Value": 0.01,
+        "Unit": "g/dL"
+      }
+    }
+  }, {
+    "Name": "Creatinine",
+    "Concentration": {
+      "ScalarMassPerVolume": {
+        "Value": 0.001,
+        "Unit": "g/dL"
+      }
+    }
+  }]
+}

@@ -1,0 +1,25 @@
+{
+  "Name": "Nitrogen",
+  "Density": {
+    "ScalarMassPerVolume": {
+      "Value": 1251.0,
+      "Unit": "g/m^3"
+    }
+  },
+  "MolarMass": {
+    "ScalarMassPerAmount": {
+      "Value": 28.0134,
+      "Unit": "g/mol"
+    }
+  },
+  "State": "Gas",
+  "RelativeDiffusionCoefficient": {
+    "Value": 0.53
+  },
+  "SolubilityCoefficient": {
+    "ScalarInversePressure": {
+      "Value": 0.012,
+      "Unit": "1/atm"
+    }
+  }
+}

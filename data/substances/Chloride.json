@@ -1,0 +1,34 @@
+{
+  "Name": "Chloride",
+  "MolarMass": {
+    "ScalarMassPerAmount": {
+      "Value": 35.45,
+      "Unit": "g/mol"
+    }
+  },
+  "State": "Liquid",
+  "Clearance": {
+    "RenalClearance": {
+      "Regulation": {
+        "ChargeInBlood": "Negative",
+        "FractionUnboundInPlasma": {
+          "Scalar0To1": {
+            "Value": 1.0
+          }
+        },
+        "ReabsorptionRatio": {
+          "Value": 1.0
+        },
+        "TransportMaximum": {
+          "ScalarMassPerTime": {
+            "Value": "Infinity",
+            "Unit": "mg/min"
+          }
+        }
+      }
+    }
+  },
+  "Valence": {
+    "Value": 1.0
+  }
+}

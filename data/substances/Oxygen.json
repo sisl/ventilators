@@ -1,0 +1,25 @@
+{
+  "Name": "Oxygen",
+  "Density": {
+    "ScalarMassPerVolume": {
+      "Value": 1429.0,
+      "Unit": "g/m^3"
+    }
+  },
+  "MolarMass": {
+    "ScalarMassPerAmount": {
+      "Value": 32.0,
+      "Unit": "g/mol"
+    }
+  },
+  "State": "Gas",
+  "RelativeDiffusionCoefficient": {
+    "Value": 1.0
+  },
+  "SolubilityCoefficient": {
+    "ScalarInversePressure": {
+      "Value": 0.024,
+      "Unit": "1/atm"
+    }
+  }
+}

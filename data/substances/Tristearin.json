@@ -1,0 +1,16 @@
+{
+  "Name": "Tristearin",
+  "Density": {
+    "ScalarMassPerVolume": {
+      "Value": 862.0,
+      "Unit": "kg/m^3"
+    }
+  },
+  "MolarMass": {
+    "ScalarMassPerAmount": {
+      "Value": 891.48,
+      "Unit": "g/mol"
+    }
+  },
+  "State": "Liquid"
+}

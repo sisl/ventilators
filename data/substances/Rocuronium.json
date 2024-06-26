@@ -1,0 +1,128 @@
+{
+  "Name": "Rocuronium",
+  "MolarMass": {
+    "ScalarMassPerAmount": {
+      "Value": 529.77,
+      "Unit": "g/mol"
+    }
+  },
+  "State": "Liquid",
+  "Clearance": {
+    "SystemicClearance": {
+      "FractionExcretedInFeces": {
+        "Scalar0To1": {
+          "Value": 0.31
+        }
+      },
+      "FractionUnboundInPlasma": {
+        "Scalar0To1": {
+          "Value": 0.7
+        }
+      },
+      "IntrinsicClearance": {
+        "ScalarVolumePerTimeMass": {
+          "Value": 0.048,
+          "Unit": "mL/min kg"
+        }
+      },
+      "RenalClearance": {
+        "ScalarVolumePerTimeMass": {
+          "Value": 2.2,
+          "Unit": "mL/min kg"
+        }
+      },
+      "SystemicClearance": {
+        "ScalarVolumePerTimeMass": {
+          "Value": 3.5,
+          "Unit": "mL/min kg"
+        }
+      }
+    },
+    "RenalClearance": {
+      "Clearance": {
+        "ScalarVolumePerTimeMass": {
+          "Value": 2.2,
+          "Unit": "mL/min kg"
+        }
+      }
+    }
+  },
+  "Pharmacokinetics": {
+    "Physicochemicals": {
+      "AcidDissociationConstant": {
+        "Value": 14.95
+      },
+      "BindingProtein": "Albumin",
+      "BloodPlasmaRatio": {
+        "Value": 1.0
+      },
+      "FractionUnboundInPlasma": {
+        "Scalar0To1": {
+          "Value": 0.7
+        }
+      },
+      "IonicState": "WeakBase",
+      "LogP": {
+        "Value": 2.77
+      }
+    }
+  },
+  "Pharmacodynamics": {
+    "Bronchodilation": {
+      "ScalarNegative1To1": {
+      }
+    },
+    "DiastolicPressureModifier": {
+      "ScalarNegative1To1": {
+      }
+    },
+    "EC50": {
+      "ScalarMassPerVolume": {
+        "Value": 0.5549,
+        "Unit": "ug/mL"
+      }
+    },
+    "EMaxShapeParameter": {
+      "Value": 1.0
+    },
+    "HeartRateModifier": {
+      "ScalarNegative1To1": {
+      }
+    },
+    "NeuromuscularBlock": {
+      "ScalarNegative1To1": {
+        "Value": 1.0
+      }
+    },
+    "PupillaryResponse": {
+      "ReactivityModifier": {
+        "ScalarNegative1To1": {
+        }
+      },
+      "SizeModifier": {
+        "ScalarNegative1To1": {
+        }
+      }
+    },
+    "RespirationRateModifier": {
+      "ScalarNegative1To1": {
+      }
+    },
+    "Sedation": {
+      "ScalarNegative1To1": {
+      }
+    },
+    "SystolicPressureModifier": {
+      "ScalarNegative1To1": {
+      }
+    },
+    "TidalVolumeModifier": {
+      "ScalarNegative1To1": {
+      }
+    },
+    "TubularPermeabilityModifier": {
+      "ScalarNegative1To1": {
+      }
+    }
+  }
+}

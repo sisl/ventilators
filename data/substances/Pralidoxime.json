@@ -1,0 +1,129 @@
+{
+  "Name": "Pralidoxime",
+  "MolarMass": {
+    "ScalarMassPerAmount": {
+      "Value": 176.6,
+      "Unit": "g/mol"
+    }
+  },
+  "State": "Liquid",
+  "Clearance": {
+    "SystemicClearance": {
+      "FractionExcretedInFeces": {
+        "Scalar0To1": {
+        }
+      },
+      "FractionUnboundInPlasma": {
+        "Scalar0To1": {
+          "Value": 1.0
+        }
+      },
+      "IntrinsicClearance": {
+        "ScalarVolumePerTimeMass": {
+          "Unit": "mL/min kg"
+        }
+      },
+      "RenalClearance": {
+        "ScalarVolumePerTimeMass": {
+          "Value": 7.2,
+          "Unit": "mL/min kg"
+        }
+      },
+      "SystemicClearance": {
+        "ScalarVolumePerTimeMass": {
+          "Value": 15.0,
+          "Unit": "mL/min kg"
+        }
+      }
+    },
+    "RenalClearance": {
+      "Clearance": {
+        "ScalarVolumePerTimeMass": {
+          "Value": 7.2,
+          "Unit": "mL/min kg"
+        }
+      }
+    }
+  },
+  "Pharmacokinetics": {
+    "Physicochemicals": {
+      "AcidDissociationConstant": {
+        "Value": 5.78
+      },
+      "BindingProtein": "Albumin",
+      "BloodPlasmaRatio": {
+        "Value": 1.564
+      },
+      "FractionUnboundInPlasma": {
+        "Scalar0To1": {
+          "Value": 1.0
+        }
+      },
+      "IonicState": "WeakBase",
+      "LogP": {
+        "Value": 1.564
+      }
+    }
+  },
+  "Pharmacodynamics": {
+    "Bronchodilation": {
+      "ScalarNegative1To1": {
+      }
+    },
+    "DiastolicPressureModifier": {
+      "ScalarNegative1To1": {
+        "Value": 0.15
+      }
+    },
+    "EC50": {
+      "ScalarMassPerVolume": {
+        "Value": 0.2855,
+        "Unit": "ug/mL"
+      }
+    },
+    "EMaxShapeParameter": {
+      "Value": 1.0
+    },
+    "HeartRateModifier": {
+      "ScalarNegative1To1": {
+        "Value": 0.45
+      }
+    },
+    "NeuromuscularBlock": {
+      "ScalarNegative1To1": {
+      }
+    },
+    "PupillaryResponse": {
+      "ReactivityModifier": {
+        "ScalarNegative1To1": {
+        }
+      },
+      "SizeModifier": {
+        "ScalarNegative1To1": {
+        }
+      }
+    },
+    "RespirationRateModifier": {
+      "ScalarNegative1To1": {
+        "Value": 0.3
+      }
+    },
+    "Sedation": {
+      "ScalarNegative1To1": {
+      }
+    },
+    "SystolicPressureModifier": {
+      "ScalarNegative1To1": {
+        "Value": 0.15
+      }
+    },
+    "TidalVolumeModifier": {
+      "ScalarNegative1To1": {
+      }
+    },
+    "TubularPermeabilityModifier": {
+      "ScalarNegative1To1": {
+      }
+    }
+  }
+}

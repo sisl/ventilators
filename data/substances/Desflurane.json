@@ -1,0 +1,143 @@
+{
+  "Name": "Desflurane",
+  "Density": {
+    "ScalarMassPerVolume": {
+      "Value": 1496000.0,
+      "Unit": "g/m^3"
+    }
+  },
+  "MolarMass": {
+    "ScalarMassPerAmount": {
+      "Value": 168.038,
+      "Unit": "g/mol"
+    }
+  },
+  "State": "Gas",
+  "RelativeDiffusionCoefficient": {
+    "Value": 4.685
+  },
+  "SolubilityCoefficient": {
+    "ScalarInversePressure": {
+      "Value": 0.27,
+      "Unit": "1/atm"
+    }
+  },
+  "Clearance": {
+    "SystemicClearance": {
+      "FractionExcretedInFeces": {
+        "Scalar0To1": {
+        }
+      },
+      "FractionUnboundInPlasma": {
+        "Scalar0To1": {
+          "Value": 1.0
+        }
+      },
+      "IntrinsicClearance": {
+        "ScalarVolumePerTimeMass": {
+          "Unit": "mL/min kg"
+        }
+      },
+      "RenalClearance": {
+        "ScalarVolumePerTimeMass": {
+          "Unit": "mL/min kg"
+        }
+      },
+      "SystemicClearance": {
+        "ScalarVolumePerTimeMass": {
+          "Value": 2.0,
+          "Unit": "mL/min kg"
+        }
+      }
+    },
+    "RenalClearance": {
+      "Clearance": {
+        "ScalarVolumePerTimeMass": {
+          "Unit": "mL/min kg"
+        }
+      }
+    }
+  },
+  "Pharmacokinetics": {
+    "Physicochemicals": {
+      "AcidDissociationConstant": {
+        "Value": 18.87
+      },
+      "BindingProtein": "Albumin",
+      "BloodPlasmaRatio": {
+        "Value": 1.0
+      },
+      "FractionUnboundInPlasma": {
+        "Scalar0To1": {
+          "Value": 1.0
+        }
+      },
+      "IonicState": "Neutral",
+      "LogP": {
+        "Value": 2.06
+      }
+    }
+  },
+  "Pharmacodynamics": {
+    "Bronchodilation": {
+      "ScalarNegative1To1": {
+      }
+    },
+    "DiastolicPressureModifier": {
+      "ScalarNegative1To1": {
+        "Value": -0.4
+      }
+    },
+    "EC50": {
+      "ScalarMassPerVolume": {
+        "Value": 300.0,
+        "Unit": "ug/mL"
+      }
+    },
+    "EMaxShapeParameter": {
+      "Value": 1.0
+    },
+    "HeartRateModifier": {
+      "ScalarNegative1To1": {
+        "Value": 0.4
+      }
+    },
+    "NeuromuscularBlock": {
+      "ScalarNegative1To1": {
+      }
+    },
+    "PupillaryResponse": {
+      "ReactivityModifier": {
+        "ScalarNegative1To1": {
+        }
+      },
+      "SizeModifier": {
+        "ScalarNegative1To1": {
+        }
+      }
+    },
+    "RespirationRateModifier": {
+      "ScalarNegative1To1": {
+        "Value": -0.25
+      }
+    },
+    "Sedation": {
+      "ScalarNegative1To1": {
+        "Value": 1.0
+      }
+    },
+    "SystolicPressureModifier": {
+      "ScalarNegative1To1": {
+        "Value": -0.4
+      }
+    },
+    "TidalVolumeModifier": {
+      "ScalarNegative1To1": {
+      }
+    },
+    "TubularPermeabilityModifier": {
+      "ScalarNegative1To1": {
+      }
+    }
+  }
+}

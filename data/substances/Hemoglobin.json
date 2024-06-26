@@ -1,0 +1,10 @@
+{
+  "Name": "Hemoglobin",
+  "MolarMass": {
+    "ScalarMassPerAmount": {
+      "Value": 64458.0,
+      "Unit": "g/mol"
+    }
+  },
+  "State": "Molecular"
+}

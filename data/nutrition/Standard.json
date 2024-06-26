@@ -1,0 +1,56 @@
+{
+  "Carbohydrate": {
+    "ScalarMass": {
+      "Value": 130.0,
+      "Unit": "g"
+    }
+  },
+  "CarbohydrateDigestionRate": {
+    "ScalarMassPerTime": {
+      "Value": 1.083,
+      "Unit": "g/min"
+    }
+  },
+  "Fat": {
+    "ScalarMass": {
+      "Value": 27.0,
+      "Unit": "g"
+    }
+  },
+  "FatDigestionRate": {
+    "ScalarMassPerTime": {
+      "Value": 0.055,
+      "Unit": "g/min"
+    }
+  },
+  "Protein": {
+    "ScalarMass": {
+      "Value": 20.0,
+      "Unit": "g"
+    }
+  },
+  "ProteinDigestionRate": {
+    "ScalarMassPerTime": {
+      "Value": 0.071,
+      "Unit": "g/min"
+    }
+  },
+  "Calcium": {
+    "ScalarMass": {
+      "Value": 500.0,
+      "Unit": "mg"
+    }
+  },
+  "Sodium": {
+    "ScalarMass": {
+      "Value": 1.0,
+      "Unit": "g"
+    }
+  },
+  "Water": {
+    "ScalarVolume": {
+      "Value": 0.5,
+      "Unit": "L"
+    }
+  }
+}

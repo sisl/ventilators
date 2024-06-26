@@ -1,0 +1,46 @@
+{
+  "Configuration": {
+    "AutoSerialization" : {
+      "Directory" : "./states/testing/",
+      "Filename" : "SerializationTest",
+      "AfterActions" : "On",
+      "Period" : { "ScalarTime": { "Value": 5.0, "Unit": "s" } },
+      "PeriodTimeStamps" : "On",
+      "ReloadState" : "On",
+    }
+  },
+  "Scenario": {
+    "Name":"SerializationTest",
+    "Description":"Basic scenario testing serialization",
+    "EngineStateFile":"./states/StandardMale@0s.json",
+    
+    
+    "DataRequestManager": {
+      "DataRequest": [
+        
+        {"DecimalFormat":{"Precision":2}, "Category":"Physiology",  "PropertyName":"HeartRate",                         "Unit":"1/min"},
+        {"DecimalFormat":{"Precision":1}, "Category":"Physiology",  "PropertyName":"ArterialPressure",                  "Unit":"mmHg"},
+        {"DecimalFormat":{"Precision":1}, "Category":"Physiology",  "PropertyName":"MeanArterialPressure",              "Unit":"mmHg"},
+        {"DecimalFormat":{}             , "Category":"Physiology",  "PropertyName":"SystolicArterialPressure",          "Unit":"mmHg"},
+        {"DecimalFormat":{"Precision":1}, "Category":"Physiology",  "PropertyName":"DiastolicArterialPressure",         "Unit":"mmHg"},
+        {"DecimalFormat":{"Precision":3}, "Category":"Physiology",  "PropertyName":"OxygenSaturation",                  "Unit":"unitless"},
+        {"DecimalFormat":{"Precision":4}, "Category":"Physiology",  "PropertyName":"EndTidalCarbonDioxideFraction",     "Unit":"unitless"},
+        {"DecimalFormat":{"Precision":2}, "Category":"Physiology",  "PropertyName":"RespirationRate",                   "Unit":"1/min"},
+        {"DecimalFormat":{"Precision":1}, "Category":"Physiology",  "PropertyName":"SkinTemperature",                   "Unit":"degC"},
+        
+        {"DecimalFormat":{}             , "Category":"GasCompartment", "CompartmentName":"Carina", "SubstanceName":"Oxygen", "PropertyName":"PartialPressure", "Unit":"cmH2O"},
+      ]},
+
+    "AnyAction":[
+    
+      {"AdvanceTime":{"Time":{"ScalarTime":{"Value":5.0,"Unit":"s"}}}},
+      {"PatientAction": {
+        "Hemorrhage": {
+          "Compartment": "RightArmVasculature",
+          "Rate": { "ScalarVolumePerTime": { "Value": 60.0, "Unit": "mL/min" } }
+        }
+      }},
+      {"AdvanceTime":{"Time":{"ScalarTime":{"Value":20.0,"Unit":"s"}}}},
+    ]
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "Configuration": {
+    "TimeStep" : { "ScalarTime": { "Value": 0.02, "Unit": "s" } }
+  },"Scenario": {
+  "Name":"BasicStandard",
+  "Description":"Basic scenario measuring patient vitals with no insults or interventions",
+  "EngineStateFile":"./states/StandardMale@0s.pbb",
+  "DataRequestManager": {"DataRequest":[
+    {"DecimalFormat":{"Precision":1},"Category":"Patient",     "PropertyName":"Weight",                            "Unit":"kg"},
+    
+    {"DecimalFormat":{"Precision":2}, "Category":"Physiology", "PropertyName":"HeartRate",                         "Unit":"1/min"},
+    {"DecimalFormat":{"Precision":1}, "Category":"Physiology", "PropertyName":"HeartStrokeVolume",                 "Unit":"mL"},
+    {"DecimalFormat":{"Precision":2}, "Category":"Physiology", "PropertyName":"BloodVolume",                       "Unit":"L"},
+    {"DecimalFormat":{"Precision":1}, "Category":"Physiology", "PropertyName":"ExtravascularFluidVolume",          "Unit":"L"},
+    {"DecimalFormat":{"Precision":1}, "Category":"Physiology", "PropertyName":"ArterialPressure",                  "Unit":"mmHg"},
+    {"DecimalFormat":{"Precision":1}, "Category":"Physiology", "PropertyName":"MeanArterialPressure",              "Unit":"mmHg"},
+    {"DecimalFormat":{}             , "Category":"Physiology", "PropertyName":"SystolicArterialPressure",          "Unit":"mmHg"},
+    {"DecimalFormat":{"Precision":1}, "Category":"Physiology", "PropertyName":"DiastolicArterialPressure",         "Unit":"mmHg"},
+    {"DecimalFormat":{"Precision":2}, "Category":"Physiology", "PropertyName":"CardiacOutput",                     "Unit":"L/min"},
+    {"DecimalFormat":{},              "Category":"Physiology", "PropertyName":"HemoglobinContent",                 "Unit":"g"},
+    {"DecimalFormat":{"Precision":2}, "Category":"Physiology", "PropertyName":"CentralVenousPressure",             "Unit":"mmHg"},
+    {"DecimalFormat":{"Precision":2}, "Category":"Physiology", "PropertyName":"PulmonaryCapillariesWedgePressure", "Unit":"mmHg"},
+    
+    {"DecimalFormat":{"Precision":3}, "Category":"Physiology", "PropertyName":"TidalVolume",                       "Unit":"mL"},
+    {"DecimalFormat":{"Precision":2}, "Category":"Physiology", "PropertyName":"TotalLungVolume",                   "Unit":"L"},
+    {"DecimalFormat":{"Precision":2}, "Category":"Physiology", "PropertyName":"RespirationRate",                   "Unit":"1/min"},
+    {"DecimalFormat":{"Precision":3}, "Category":"Physiology", "PropertyName":"OxygenSaturation",                  "Unit":"unitless"},
+    {"DecimalFormat":{"Precision":3}, "Category":"Physiology", "PropertyName":"CarbonDioxideSaturation",           "Unit":"unitless"},
+    {"DecimalFormat":{"Precision":4}, "Category":"Physiology", "PropertyName":"EndTidalCarbonDioxideFraction",     "Unit":"unitless"},
+    {"DecimalFormat":{"Precision":2}, "Category":"Physiology", "PropertyName":"TotalAlveolarVentilation",          "Unit":"L/min"},
+    {"DecimalFormat":{"Precision":2}, "Category":"Physiology", "PropertyName":"TranspulmonaryPressure",            "Unit":"cmH2O"},
+    
+    {"DecimalFormat":{"Precision":1}, "Category":"Physiology", "PropertyName":"CoreTemperature",                   "Unit":"degC"},
+    {"DecimalFormat":{"Precision":1}, "Category":"Physiology", "PropertyName":"SkinTemperature",                   "Unit":"degC"},
+    
+    {"DecimalFormat":{"Precision":3}, "Category":"Physiology", "PropertyName":"RespiratoryExchangeRatio",          "Unit":"unitless"},
+    {"DecimalFormat":{}             , "Category":"Physiology", "PropertyName":"OxygenConsumptionRate",             "Unit":"mL/min"},
+    {"DecimalFormat":{}             , "Category":"Physiology", "PropertyName":"CarbonDioxideProductionRate",       "Unit":"mL/min"},
+    
+    {"DecimalFormat":{}             , "Category":"Physiology", "PropertyName":"GlomerularFiltrationRate",          "Unit":"mL/min"},
+    {"DecimalFormat":{"Precision":2}, "Category":"Physiology", "PropertyName":"RenalBloodFlow",                    "Unit":"L/min"},
+    {"DecimalFormat":{"Precision":3}, "Category":"Physiology", "PropertyName":"UrineProductionRate",               "Unit":"mL/min"},
+    {"DecimalFormat":{"Precision":4}, "Category":"Physiology", "PropertyName":"LeftAfferentArterioleResistance",   "Unit":"mmHg min/mL"},
+    {"DecimalFormat":{"Precision":4}, "Category":"Physiology", "PropertyName":"RightAfferentArterioleResistance",  "Unit":"mmHg min/mL"},
+    
+    {"DecimalFormat":{}             , "Category":"GasCompartment", "CompartmentName":"LeftAlveoli",                                      "PropertyName":"Pressure",        "Unit":"cmH2O"},
+    {"DecimalFormat":{}             , "Category":"GasCompartment", "CompartmentName":"LeftAlveoli",     "SubstanceName":"Oxygen",        "PropertyName":"PartialPressure", "Unit":"mmHg"},
+    {"DecimalFormat":{"Precision":1}, "Category":"GasCompartment", "CompartmentName":"LeftAlveoli",     "SubstanceName":"CarbonDioxide", "PropertyName":"PartialPressure", "Unit":"mmHg"},
+    {"DecimalFormat":{}             , "Category":"GasCompartment", "CompartmentName":"RightAlveoli",                                     "PropertyName":"Pressure",        "Unit":"cmH2O"},
+    {"DecimalFormat":{}             , "Category":"GasCompartment", "CompartmentName":"RightAlveoli",    "SubstanceName":"Oxygen",        "PropertyName":"PartialPressure", "Unit":"mmHg"},
+    {"DecimalFormat":{"Precision":1}, "Category":"GasCompartment", "CompartmentName":"RightAlveoli",    "SubstanceName":"CarbonDioxide", "PropertyName":"PartialPressure", "Unit":"mmHg"},
+    {"DecimalFormat":{}             , "Category":"GasCompartment", "CompartmentName":"Carina",          "SubstanceName":"Oxygen",        "PropertyName":"PartialPressure", "Unit":"cmH2O"},
+    {"DecimalFormat":{"Precision":1}, "Category":"GasCompartment", "CompartmentName":"Carina",          "SubstanceName":"CarbonDioxide", "PropertyName":"PartialPressure", "Unit":"cmH2O"},
+    
+    {"DecimalFormat":{"Precision":1}, "Category":"LiquidCompartment", "CompartmentName":"Aorta",        "SubstanceName":"Oxygen",        "PropertyName":"PartialPressure", "Unit":"mmHg"},
+    {"DecimalFormat":{"Precision":1}, "Category":"LiquidCompartment", "CompartmentName":"Aorta",        "SubstanceName":"CarbonDioxide", "PropertyName":"PartialPressure", "Unit":"mmHg"},
+    {"DecimalFormat":{"Precision":1}, "Category":"LiquidCompartment", "CompartmentName":"VenaCava",     "SubstanceName":"Oxygen",        "PropertyName":"PartialPressure", "Unit":"mmHg"},
+    {"DecimalFormat":{"Precision":1}, "Category":"LiquidCompartment", "CompartmentName":"VenaCava",     "SubstanceName":"CarbonDioxide", "PropertyName":"PartialPressure", "Unit":"mmHg"},
+    
+    {"DecimalFormat":{"Precision":2}, "Category":"LiquidCompartment", "CompartmentName":"RightTubules", "SubstanceName":"Sodium",        "PropertyName":"Concentration",   "Unit":"g/L"},
+    {"DecimalFormat":{"Precision":2}, "Category":"LiquidCompartment", "CompartmentName":"LeftTubules",  "SubstanceName":"Sodium",        "PropertyName":"Concentration",   "Unit":"g/L"},
+    
+    {"DecimalFormat":{"Precision":2}, "Category":"Substance", "SubstanceName":"Oxygen",        "PropertyName":"AlveolarTransfer",    "Unit":"mL/s"},
+    {"DecimalFormat":{"Precision":2}, "Category":"Substance", "SubstanceName":"CarbonDioxide", "PropertyName":"AlveolarTransfer",    "Unit":"mL/s"},
+    {"DecimalFormat":{"Precision":6}, "Category":"Substance", "SubstanceName":"Epinephrine",   "PropertyName":"BloodConcentration",  "Unit":"ug/L"},
+    
+    {"DecimalFormat":{"Precision":8}, "Category":"Substance", "SubstanceName":"Epinephrine",   "PropertyName":"SystemicMassCleared", "Unit":"ug"},
+    
+    {"DecimalFormat":{"Precision":2}, "Category":"Physiology", "PropertyName":"WaterAbsorptionRate",          "Unit":"mL/min"},
+    {"DecimalFormat":{"Precision":2}, "Category":"Physiology", "PropertyName":"StomachContents-Carbohydrate", "Unit":"g"},
+    {"DecimalFormat":{"Precision":2}, "Category":"Physiology", "PropertyName":"StomachContents-Fat",          "Unit":"g"},
+    {"DecimalFormat":{"Precision":2}, "Category":"Physiology", "PropertyName":"StomachContents-Protein",      "Unit":"g"},
+    {"DecimalFormat":{"Precision":2}, "Category":"Physiology", "PropertyName":"StomachContents-Calcium",      "Unit":"g"},
+    {"DecimalFormat":{"Precision":2}, "Category":"Physiology", "PropertyName":"StomachContents-Sodium",       "Unit":"g"},
+    {"DecimalFormat":{}             , "Category":"Physiology", "PropertyName":"StomachContents-Water",        "Unit":"mL"},
+    
+    {"DecimalFormat":{}             , "Category":"LiquidCompartment", "CompartmentName":"SmallIntestineChyme",                               "PropertyName":"Volume", "Unit":"mL"},
+    {"DecimalFormat":{"Precision":2}, "Category":"LiquidCompartment", "CompartmentName":"SmallIntestineChyme", "SubstanceName":"Glucose",    "PropertyName":"Mass",  "Unit":"g"},
+    {"DecimalFormat":{"Precision":2}, "Category":"LiquidCompartment", "CompartmentName":"SmallIntestineChyme", "SubstanceName":"Tristearin", "PropertyName":"Mass",  "Unit":"g"},
+    {"DecimalFormat":{"Precision":2}, "Category":"LiquidCompartment", "CompartmentName":"SmallIntestineChyme", "SubstanceName":"Calcium",    "PropertyName":"Mass",  "Unit":"g"},
+    {"DecimalFormat":{"Precision":2}, "Category":"LiquidCompartment", "CompartmentName":"SmallIntestineChyme", "SubstanceName":"Sodium",     "PropertyName":"Mass",  "Unit":"g"},
+    {"DecimalFormat":{"Precision":2}, "Category":"LiquidCompartment", "CompartmentName":"SmallIntestineChyme", "SubstanceName":"Urea",       "PropertyName":"Mass",  "Unit":"g"},
+    
+    {"DecimalFormat":{}             , "Category":"LiquidCompartment", "CompartmentName":"SmallIntestineVasculature",                                "PropertyName":"Volume",        "Unit":"mL"},
+    {"DecimalFormat":{"Precision":1}, "Category":"LiquidCompartment", "CompartmentName":"SmallIntestineVasculature",                                "PropertyName":"Pressure",      "Unit":"mmHg"},
+    {"DecimalFormat":{"Precision":1}, "Category":"LiquidCompartment", "CompartmentName":"SmallIntestineVasculature", "SubstanceName":"Glucose",     "PropertyName":"Concentration", "Unit":"mg/dL"},
+    {"DecimalFormat":{}             , "Category":"LiquidCompartment", "CompartmentName":"SmallIntestineVasculature", "SubstanceName":"Tristearin",  "PropertyName":"Concentration", "Unit":"mg/dL"},
+    {"DecimalFormat":{"Precision":1}, "Category":"LiquidCompartment", "CompartmentName":"SmallIntestineVasculature", "SubstanceName":"Calcium",     "PropertyName":"Concentration", "Unit":"mg/L"},
+    {"DecimalFormat":{"Precision":2}, "Category":"LiquidCompartment", "CompartmentName":"SmallIntestineVasculature", "SubstanceName":"Sodium",      "PropertyName":"Concentration", "Unit":"g/L"},
+    {"DecimalFormat":{"Precision":1}, "Category":"LiquidCompartment", "CompartmentName":"SmallIntestineVasculature", "SubstanceName":"Urea",        "PropertyName":"Concentration", "Unit":"mg/dL"},
+    
+    {"DecimalFormat":{"Precision":3}, "Category":"Physiology", "PropertyName":"HeartEjectionFraction"},
+    {"DecimalFormat":{"Precision":3}, "Category":"Physiology", "PropertyName":"SystemicVascularResistance","Unit":"mmHg s/mL"},
+    
+    {"DecimalFormat":{}             , "Category":"LiquidCompartment","CompartmentName":"Pericardium","PropertyName":"Volume",  "Unit":"mL"},
+    {"DecimalFormat":{"Precision":2}, "Category":"LiquidCompartment","CompartmentName":"Pericardium","PropertyName":"Pressure","Unit":"mmHg"}
+  ]},
+
+  "AnyAction":[{"AdvanceTime":{"Time":{"ScalarTime":{"Value":2.0,"Unit":"min"}}}}]},
+
+}

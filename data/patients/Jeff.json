@@ -1,0 +1,50 @@
+{
+  "Name": "Jeff",
+  "Age": {
+    "ScalarTime": {
+      "Value": 25.0,
+      "Unit": "yr"
+    }
+  },
+  "Weight": {
+    "ScalarMass": {
+      "Value": 180.0,
+      "Unit": "lb"
+    }
+  },
+  "Height": {
+    "ScalarLength": {
+      "Value": 72.0,
+      "Unit": "in"
+    }
+  },
+  "BodyFatFraction": {
+    "Scalar0To1": {
+      "Value": 0.12
+    }
+  },
+  "DiastolicArterialPressureBaseline": {
+    "ScalarPressure": {
+      "Value": 73.5,
+      "Unit": "mmHg"
+    }
+  },
+  "HeartRateBaseline": {
+    "ScalarFrequency": {
+      "Value": 72.0,
+      "Unit": "1/min"
+    }
+  },
+  "RespirationRateBaseline": {
+    "ScalarFrequency": {
+      "Value": 16.0,
+      "Unit": "1/min"
+    }
+  },
+  "SystolicArterialPressureBaseline": {
+    "ScalarPressure": {
+      "Value": 114.0,
+      "Unit": "mmHg"
+    }
+  }
+}

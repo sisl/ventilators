@@ -1,0 +1,86 @@
+{
+  "SurroundingType": "Air",
+  "AirVelocity": {
+    "ScalarLengthPerTime": {
+      "Unit": "m/s"
+    }
+  },
+  "AmbientTemperature": {
+    "ScalarTemperature": {
+      "Value": 25.0,
+      "Unit": "degC"
+    }
+  },
+  "AtmosphericPressure": {
+    "ScalarPressure": {
+      "Value": 542.0,
+      "Unit": "mmHg"
+    }
+  },
+  "ClothingResistance": {
+    "ScalarHeatResistanceArea": {
+      "Value": 2.0,
+      "Unit": "clo"
+    }
+  },
+  "Emissivity": {
+    "Scalar0To1": {
+      "Value": 0.9
+    }
+  },
+  "MeanRadiantTemperature": {
+    "ScalarTemperature": {
+      "Value": 25.0,
+      "Unit": "degC"
+    }
+  },
+  "RelativeHumidity": {
+    "Scalar0To1": {
+      "Value": 0.1
+    }
+  },
+  "RespirationAmbientTemperature": {
+    "ScalarTemperature": {
+      "Value": 25.0,
+      "Unit": "degC"
+    }
+  },
+  "AmbientGas": [{
+    "Name": "Nitrogen",
+    "Amount": {
+      "Scalar0To1": {
+        "Value": 0.79008
+      }
+    }
+  }, {
+    "Name": "Oxygen",
+    "Amount": {
+      "Scalar0To1": {
+        "Value": 0.2095
+      }
+    }
+  }, {
+    "Name": "CarbonDioxide",
+    "Amount": {
+      "Scalar0To1": {
+        "Value": 4.0E-4
+      }
+    }
+  }, {
+    "Name": "CarbonMonoxide",
+    "Amount": {
+      "Scalar0To1": {
+        "Value": 2.0E-5
+      }
+    }
+  }],
+  "AmbientAerosol": [{
+    "Name": "ForestFireParticulate",
+    "Concentration": {
+      "ScalarMassPerVolume": {
+        "Value": 2.9,
+        "Unit": "mg/m^3"
+      }
+    }
+  }]
+}

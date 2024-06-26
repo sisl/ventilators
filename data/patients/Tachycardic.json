@@ -1,0 +1,50 @@
+{
+  "Name": "Tachycardic",
+  "Age": {
+    "ScalarTime": {
+      "Value": 44.0,
+      "Unit": "yr"
+    }
+  },
+  "Weight": {
+    "ScalarMass": {
+      "Value": 170.0,
+      "Unit": "lb"
+    }
+  },
+  "Height": {
+    "ScalarLength": {
+      "Value": 71.0,
+      "Unit": "in"
+    }
+  },
+  "BodyFatFraction": {
+    "Scalar0To1": {
+      "Value": 0.18
+    }
+  },
+  "DiastolicArterialPressureBaseline": {
+    "ScalarPressure": {
+      "Value": 73.5,
+      "Unit": "mmHg"
+    }
+  },
+  "HeartRateBaseline": {
+    "ScalarFrequency": {
+      "Value": 110.0,
+      "Unit": "1/min"
+    }
+  },
+  "RespirationRateBaseline": {
+    "ScalarFrequency": {
+      "Value": 20.0,
+      "Unit": "1/min"
+    }
+  },
+  "SystolicArterialPressureBaseline": {
+    "ScalarPressure": {
+      "Value": 114.0,
+      "Unit": "mmHg"
+    }
+  }
+}

@@ -1,0 +1,217 @@
+{
+  "Name": "Albuterol",
+  "Density": {
+    "ScalarMassPerVolume": {
+      "Value": 3213.0,
+      "Unit": "g/m^3"
+    }
+  },
+  "MolarMass": {
+    "ScalarMassPerAmount": {
+      "Value": 239.31,
+      "Unit": "g/mol"
+    }
+  },
+  "State": "Liquid",
+  "Aerosolization": {
+    "BronchioleModifier": {
+      "ScalarNegative1To1": {
+        "Value": 1.0
+      }
+    },
+    "InflammationCoefficient": {
+      "Scalar0To1": {
+      }
+    },
+    "ParticulateSizeDistribution": {
+      "HistogramFractionVsLength": {
+        "Histogram": {
+          "Dependent": {
+            "Value": [0.15003, 0.18454, 0.16846, 0.14005, 0.11013, 0.08322, 0.06096, 0.04351, 0.03038, 0.02079, 0.00713, 7.4E-4, 6.0E-5, 0.0]
+          },
+          "Independent": {
+            "Value": [0.0, 1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0, 10.0, 15.0, 20.0, 25.0, 30.0]
+          },
+          "IndependentUnit": "um"
+        }
+      }
+    }
+  },
+  "RelativeDiffusionCoefficient": {
+    "Value": 0.047
+  },
+  "SolubilityCoefficient": {
+    "ScalarInversePressure": {
+      "Value": 0.46,
+      "Unit": "1/atm"
+    }
+  },
+  "Clearance": {
+    "SystemicClearance": {
+      "FractionExcretedInFeces": {
+        "Scalar0To1": {
+          "Value": 0.2
+        }
+      },
+      "FractionUnboundInPlasma": {
+        "Scalar0To1": {
+          "Value": 0.9
+        }
+      },
+      "IntrinsicClearance": {
+        "ScalarVolumePerTimeMass": {
+          "Unit": "mL/min kg"
+        }
+      },
+      "RenalClearance": {
+        "ScalarVolumePerTimeMass": {
+          "Value": 0.2,
+          "Unit": "mL/min kg"
+        }
+      },
+      "SystemicClearance": {
+        "ScalarVolumePerTimeMass": {
+          "Value": 1.0,
+          "Unit": "mL/min kg"
+        }
+      }
+    },
+    "RenalClearance": {
+      "Clearance": {
+        "ScalarVolumePerTimeMass": {
+          "Value": 0.2,
+          "Unit": "mL/min kg"
+        }
+      }
+    }
+  },
+  "Pharmacokinetics": {
+    "TissueKinetics": [{
+      "Name": "GutTissue",
+      "PartitionCoefficient": {
+        "Value": 1.0
+      }
+    }, {
+      "Name": "LeftKidneyTissue",
+      "PartitionCoefficient": {
+        "Value": 1.0
+      }
+    }, {
+      "Name": "MuscleTissue",
+      "PartitionCoefficient": {
+        "Value": 1.0
+      }
+    }, {
+      "Name": "SkinTissue",
+      "PartitionCoefficient": {
+        "Value": 1.0
+      }
+    }, {
+      "Name": "LiverTissue",
+      "PartitionCoefficient": {
+        "Value": 1.0
+      }
+    }, {
+      "Name": "MyocardiumTissue",
+      "PartitionCoefficient": {
+        "Value": 1.0
+      }
+    }, {
+      "Name": "RightLungTissue",
+      "PartitionCoefficient": {
+        "Value": 4.0
+      }
+    }, {
+      "Name": "BrainTissue",
+      "PartitionCoefficient": {
+        "Value": 1.0
+      }
+    }, {
+      "Name": "BoneTissue",
+      "PartitionCoefficient": {
+        "Value": 1.0
+      }
+    }, {
+      "Name": "LeftLungTissue",
+      "PartitionCoefficient": {
+        "Value": 4.0
+      }
+    }, {
+      "Name": "FatTissue",
+      "PartitionCoefficient": {
+        "Value": 2.0
+      }
+    }, {
+      "Name": "RightKidneyTissue",
+      "PartitionCoefficient": {
+        "Value": 1.0
+      }
+    }, {
+      "Name": "SpleenTissue",
+      "PartitionCoefficient": {
+        "Value": 1.0
+      }
+    }]
+  },
+  "Pharmacodynamics": {
+    "Bronchodilation": {
+      "ScalarNegative1To1": {
+      }
+    },
+    "DiastolicPressureModifier": {
+      "ScalarNegative1To1": {
+      }
+    },
+    "EC50": {
+      "ScalarMassPerVolume": {
+        "Value": 3.1E-5,
+        "Unit": "ug/mL"
+      }
+    },
+    "EMaxShapeParameter": {
+      "Value": 1.0
+    },
+    "HeartRateModifier": {
+      "ScalarNegative1To1": {
+        "Value": 0.3
+      }
+    },
+    "NeuromuscularBlock": {
+      "ScalarNegative1To1": {
+      }
+    },
+    "PupillaryResponse": {
+      "ReactivityModifier": {
+        "ScalarNegative1To1": {
+          "Value": -0.5
+        }
+      },
+      "SizeModifier": {
+        "ScalarNegative1To1": {
+          "Value": 0.5
+        }
+      }
+    },
+    "RespirationRateModifier": {
+      "ScalarNegative1To1": {
+        "Value": 0.2
+      }
+    },
+    "Sedation": {
+      "ScalarNegative1To1": {
+      }
+    },
+    "SystolicPressureModifier": {
+      "ScalarNegative1To1": {
+      }
+    },
+    "TidalVolumeModifier": {
+      "ScalarNegative1To1": {
+      }
+    },
+    "TubularPermeabilityModifier": {
+      "ScalarNegative1To1": {
+      }
+    }
+  }
+}

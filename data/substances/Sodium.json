@@ -1,0 +1,34 @@
+{
+  "Name": "Sodium",
+  "MolarMass": {
+    "ScalarMassPerAmount": {
+      "Value": 22.9898,
+      "Unit": "g/mol"
+    }
+  },
+  "State": "Liquid",
+  "Clearance": {
+    "RenalClearance": {
+      "Regulation": {
+        "ChargeInBlood": "Positive",
+        "FractionUnboundInPlasma": {
+          "Scalar0To1": {
+            "Value": 1.0
+          }
+        },
+        "ReabsorptionRatio": {
+          "Value": 1.0
+        },
+        "TransportMaximum": {
+          "ScalarMassPerTime": {
+            "Value": "Infinity",
+            "Unit": "mg/min"
+          }
+        }
+      }
+    }
+  },
+  "Valence": {
+    "Value": 1.0
+  }
+}

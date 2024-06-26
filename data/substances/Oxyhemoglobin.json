@@ -1,0 +1,10 @@
+{
+  "Name": "Oxyhemoglobin",
+  "MolarMass": {
+    "ScalarMassPerAmount": {
+      "Value": 64586.0,
+      "Unit": "g/mol"
+    }
+  },
+  "State": "Molecular"
+}

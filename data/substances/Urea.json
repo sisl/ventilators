@@ -1,0 +1,31 @@
+{
+  "Name": "Urea",
+  "MolarMass": {
+    "ScalarMassPerAmount": {
+      "Value": 60.06,
+      "Unit": "g/mol"
+    }
+  },
+  "State": "Liquid",
+  "Clearance": {
+    "RenalClearance": {
+      "Regulation": {
+        "ChargeInBlood": "Neutral",
+        "FractionUnboundInPlasma": {
+          "Scalar0To1": {
+            "Value": 1.0
+          }
+        },
+        "ReabsorptionRatio": {
+          "Value": 0.01
+        },
+        "TransportMaximum": {
+          "ScalarMassPerTime": {
+            "Value": "Infinity",
+            "Unit": "mg/min"
+          }
+        }
+      }
+    }
+  }
+}

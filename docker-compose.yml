@@ -1,0 +1,27 @@
+version: '3'
+services:
+  ventilators:
+    container_name: ventilators
+    build:
+      context: ./engine
+      dockerfile: Dockerfile
+    # Useful for notebooks
+    ports:
+      - "22:22"
+      - "8888:8888"
+    volumes:
+      # This holds the results of the simulation and can be written to
+      - ./results:/mnt/results
+      # So that local source code is available in the container
+      - ./src:/mnt/src
+      # Training data must also be available
+      - ./learning:/mnt/learning
+    command: tail -f /dev/null
+    # GPU pass through
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: 1
+              capabilities: [gpu]

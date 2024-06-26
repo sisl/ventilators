@@ -1,0 +1,50 @@
+{
+  "Name": "ExtremeFemale",
+  "Sex": "Female",
+  "Age": {
+    "ScalarTime": {
+      "Value": 18.0,
+      "Unit": "yr"
+    }
+  },
+  "Height": {
+    "ScalarLength": {
+      "Value": 4.5,
+      "Unit": "ft"
+    }
+  },
+  "BodyFatFraction": {
+    "Scalar0To1": {
+      "Value": 0.32
+    }
+  },
+  "RightLungRatio": {
+    "Scalar0To1": {
+      "Value": 0.5
+    }
+  },
+  "DiastolicArterialPressureBaseline": {
+    "ScalarPressure": {
+      "Value": 60.0,
+      "Unit": "mmHg"
+    }
+  },
+  "HeartRateBaseline": {
+    "ScalarFrequency": {
+      "Value": 60.0,
+      "Unit": "1/min"
+    }
+  },
+  "RespirationRateBaseline": {
+    "ScalarFrequency": {
+      "Value": 8.0,
+      "Unit": "1/min"
+    }
+  },
+  "SystolicArterialPressureBaseline": {
+    "ScalarPressure": {
+      "Value": 90.0,
+      "Unit": "mmHg"
+    }
+  }
+}

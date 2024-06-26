@@ -1,0 +1,180 @@
+{
+  "Name": "Ketamine",
+  "MolarMass": {
+    "ScalarMassPerAmount": {
+      "Value": 237.73,
+      "Unit": "g/mol"
+    }
+  },
+  "State": "Liquid",
+  "Clearance": {
+    "SystemicClearance": {
+      "FractionExcretedInFeces": {
+        "Scalar0To1": {
+          "Value": 0.05
+        }
+      },
+      "FractionUnboundInPlasma": {
+        "Scalar0To1": {
+          "Value": 0.77
+        }
+      },
+      "IntrinsicClearance": {
+        "ScalarVolumePerTimeMass": {
+          "Value": 5.0,
+          "Unit": "mL/min kg"
+        }
+      },
+      "RenalClearance": {
+        "ScalarVolumePerTimeMass": {
+          "Unit": "mL/min kg"
+        }
+      },
+      "SystemicClearance": {
+        "ScalarVolumePerTimeMass": {
+          "Value": 7.0,
+          "Unit": "mL/min kg"
+        }
+      }
+    },
+    "RenalClearance": {
+      "Clearance": {
+        "ScalarVolumePerTimeMass": {
+          "Unit": "mL/min kg"
+        }
+      }
+    }
+  },
+  "Pharmacokinetics": {
+    "TissueKinetics": [{
+      "Name": "GutTissue",
+      "PartitionCoefficient": {
+        "Value": 3.21087
+      }
+    }, {
+      "Name": "LeftKidneyTissue",
+      "PartitionCoefficient": {
+        "Value": 1.91636
+      }
+    }, {
+      "Name": "MuscleTissue",
+      "PartitionCoefficient": {
+        "Value": 1.91104
+      }
+    }, {
+      "Name": "SkinTissue",
+      "PartitionCoefficient": {
+        "Value": 2.14176
+      }
+    }, {
+      "Name": "LiverTissue",
+      "PartitionCoefficient": {
+        "Value": 2.66741
+      }
+    }, {
+      "Name": "MyocardiumTissue",
+      "PartitionCoefficient": {
+        "Value": 1.52201
+      }
+    }, {
+      "Name": "RightLungTissue",
+      "PartitionCoefficient": {
+        "Value": 1.03544
+      }
+    }, {
+      "Name": "BrainTissue",
+      "PartitionCoefficient": {
+        "Value": 3.90406
+      }
+    }, {
+      "Name": "BoneTissue",
+      "PartitionCoefficient": {
+        "Value": 3.85366
+      }
+    }, {
+      "Name": "LeftLungTissue",
+      "PartitionCoefficient": {
+        "Value": 1.03544
+      }
+    }, {
+      "Name": "FatTissue",
+      "PartitionCoefficient": {
+        "Value": 2.6982
+      }
+    }, {
+      "Name": "RightKidneyTissue",
+      "PartitionCoefficient": {
+        "Value": 1.91636
+      }
+    }, {
+      "Name": "SpleenTissue",
+      "PartitionCoefficient": {
+        "Value": 1.991899
+      }
+    }]
+  },
+  "Pharmacodynamics": {
+    "Bronchodilation": {
+      "ScalarNegative1To1": {
+        "Value": 1.0
+      }
+    },
+    "DiastolicPressureModifier": {
+      "ScalarNegative1To1": {
+        "Value": 0.25
+      }
+    },
+    "EC50": {
+      "ScalarMassPerVolume": {
+        "Value": 0.4319,
+        "Unit": "ug/mL"
+      }
+    },
+    "EMaxShapeParameter": {
+      "Value": 1.0
+    },
+    "HeartRateModifier": {
+      "ScalarNegative1To1": {
+        "Value": 0.2
+      }
+    },
+    "NeuromuscularBlock": {
+      "ScalarNegative1To1": {
+      }
+    },
+    "PupillaryResponse": {
+      "ReactivityModifier": {
+        "ScalarNegative1To1": {
+          "Value": -0.5
+        }
+      },
+      "SizeModifier": {
+        "ScalarNegative1To1": {
+        }
+      }
+    },
+    "RespirationRateModifier": {
+      "ScalarNegative1To1": {
+        "Value": -0.4
+      }
+    },
+    "Sedation": {
+      "ScalarNegative1To1": {
+        "Value": 1.0
+      }
+    },
+    "SystolicPressureModifier": {
+      "ScalarNegative1To1": {
+        "Value": 0.25
+      }
+    },
+    "TidalVolumeModifier": {
+      "ScalarNegative1To1": {
+      }
+    },
+    "TubularPermeabilityModifier": {
+      "ScalarNegative1To1": {
+      }
+    }
+  }
+}

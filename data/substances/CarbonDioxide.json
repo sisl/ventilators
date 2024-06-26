@@ -1,0 +1,25 @@
+{
+  "Name": "CarbonDioxide",
+  "Density": {
+    "ScalarMassPerVolume": {
+      "Value": 1842.12,
+      "Unit": "g/m^3"
+    }
+  },
+  "MolarMass": {
+    "ScalarMassPerAmount": {
+      "Value": 44.01,
+      "Unit": "g/mol"
+    }
+  },
+  "State": "Gas",
+  "RelativeDiffusionCoefficient": {
+    "Value": 20.3
+  },
+  "SolubilityCoefficient": {
+    "ScalarInversePressure": {
+      "Value": 0.57,
+      "Unit": "1/atm"
+    }
+  }
+}

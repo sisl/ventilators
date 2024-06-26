@@ -1,0 +1,40 @@
+{
+  "Name": "Glucose",
+  "MolarMass": {
+    "ScalarMassPerAmount": {
+      "Value": 180.1559,
+      "Unit": "g/mol"
+    }
+  },
+  "State": "Liquid",
+  "MaximumDiffusionFlux": {
+    "ScalarMassPerAreaTime": {
+      "Value": 1.0,
+      "Unit": "g/cm^2 s"
+    }
+  },
+  "MichaelisCoefficient": {
+    "Value": 0.8
+  },
+  "Clearance": {
+    "RenalClearance": {
+      "Regulation": {
+        "ChargeInBlood": "Neutral",
+        "FractionUnboundInPlasma": {
+          "Scalar0To1": {
+            "Value": 1.0
+          }
+        },
+        "ReabsorptionRatio": {
+          "Value": "Infinity"
+        },
+        "TransportMaximum": {
+          "ScalarMassPerTime": {
+            "Value": 0.375,
+            "Unit": "g/min"
+          }
+        }
+      }
+    }
+  }
+}

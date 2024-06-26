@@ -1,0 +1,10 @@
+{
+  "Name": "OxyCarbaminohemoglobin",
+  "MolarMass": {
+    "ScalarMassPerAmount": {
+      "Value": 64762.04,
+      "Unit": "g/mol"
+    }
+  },
+  "State": "Molecular"
+}

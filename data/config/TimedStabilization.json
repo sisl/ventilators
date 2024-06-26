@@ -1,0 +1,94 @@
+{
+  "RestingStabilizationTime": {
+    "ScalarTime": {
+      "Value": 600.0,
+      "Unit": "s"
+    }
+  },
+  "FeedbackStabilizationTime": {
+    "ScalarTime": {
+      "Value": 20.0,
+      "Unit": "s"
+    }
+  },
+  "ConditionStabilization": {
+    "AcuteRespiratoryDistressSyndrome": {
+      "ScalarTime": {
+        "Value": 600.0,
+        "Unit": "s"
+      }
+    },
+    "ChronicAnemia": {
+      "ScalarTime": {
+        "Value": 600.0,
+        "Unit": "s"
+      }
+    },
+    "PulmonaryFibrosis": {
+      "ScalarTime": {
+        "Value": 600.0,
+        "Unit": "s"
+      }
+    },
+    "ChronicRenalStenosis": {
+      "ScalarTime": {
+        "Value": 600.0,
+        "Unit": "s"
+      }
+    },
+    "ConsumeMeal": {
+      "ScalarTime": {
+        "Value": 600.0,
+        "Unit": "s"
+      }
+    },
+    "ImpairedAlveolarExchange": {
+      "ScalarTime": {
+        "Value": 600.0,
+        "Unit": "s"
+      }
+    },
+    "ChronicPericardialEffusion": {
+      "ScalarTime": {
+        "Value": 600.0,
+        "Unit": "s"
+      }
+    },
+    "ChronicObstructivePulmonaryDisease": {
+      "ScalarTime": {
+        "Value": 600.0,
+        "Unit": "s"
+      }
+    },
+    "ChronicVentricularSystolicDysfunction": {
+      "ScalarTime": {
+        "Value": 600.0,
+        "Unit": "s"
+      }
+    },
+    "Sepsis": {
+      "ScalarTime": {
+        "Value": 600.0,
+        "Unit": "s"
+      }
+    },
+    "PulmonaryShunt": {
+      "ScalarTime": {
+        "Value": 600.0,
+        "Unit": "s"
+      }
+    },
+    "InitialEnvironmentalConditions": {
+      "ScalarTime": {
+        "Value": 600.0,
+        "Unit": "s"
+      }
+    },
+    "LobarPneumonia": {
+      "ScalarTime": {
+        "Value": 600.0,
+        "Unit": "s"
+      }
+    }
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "SurroundingType": "Water",
+  "AirVelocity": {
+    "ScalarLengthPerTime": {
+      "Unit": "m/s"
+    }
+  },
+  "AmbientTemperature": {
+    "ScalarTemperature": {
+      "Value": 10.0,
+      "Unit": "degC"
+    }
+  },
+  "AtmosphericPressure": {
+    "ScalarPressure": {
+      "Value": 1260.0,
+      "Unit": "mmHg"
+    }
+  },
+  "ClothingResistance": {
+    "ScalarHeatResistanceArea": {
+      "Value": 3.0,
+      "Unit": "clo"
+    }
+  },
+  "Emissivity": {
+    "Scalar0To1": {
+      "Value": 0.9
+    }
+  },
+  "MeanRadiantTemperature": {
+    "ScalarTemperature": {
+      "Value": 15.0,
+      "Unit": "degC"
+    }
+  },
+  "RelativeHumidity": {
+    "Scalar0To1": {
+      "Value": 1.0
+    }
+  },
+  "RespirationAmbientTemperature": {
+    "ScalarTemperature": {
+      "Value": 16.0,
+      "Unit": "degC"
+    }
+  },
+  "AmbientGas": [{
+    "Name": "Nitrogen",
+    "Amount": {
+      "Scalar0To1": {
+        "Value": 0.7901
+      }
+    }
+  }, {
+    "Name": "Oxygen",
+    "Amount": {
+      "Scalar0To1": {
+        "Value": 0.2095
+      }
+    }
+  }, {
+    "Name": "CarbonDioxide",
+    "Amount": {
+      "Scalar0To1": {
+        "Value": 4.0E-4
+      }
+    }
+  }]
+}

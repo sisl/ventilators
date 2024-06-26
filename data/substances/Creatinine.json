@@ -1,0 +1,29 @@
+{
+  "Name": "Creatinine",
+  "MolarMass": {
+    "ScalarMassPerAmount": {
+      "Value": 113.12,
+      "Unit": "g/mol"
+    }
+  },
+  "State": "Liquid",
+  "Clearance": {
+    "RenalClearance": {
+      "Regulation": {
+        "ChargeInBlood": "Positive",
+        "FractionUnboundInPlasma": {
+          "Scalar0To1": {
+            "Value": 1.0
+          }
+        },
+        "ReabsorptionRatio": {
+        },
+        "TransportMaximum": {
+          "ScalarMassPerTime": {
+            "Unit": "g/min"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "Name": "Vitals Monitor",
+  "Description": "Data associated with a vitals monitor.",
+  "PatientConfiguration": { "PatientFile": "StandardMale.json" },
+  "DataRequestManager": {
+    "DataRequest": [
+      
+      {"DecimalFormat":{"Precision":2}, "Category":"Physiology",  "PropertyName":"HeartRate",                         "Unit":"1/min"},
+      {"DecimalFormat":{"Precision":1}, "Category":"Physiology",  "PropertyName":"ArterialPressure",                  "Unit":"mmHg"},
+      {"DecimalFormat":{"Precision":1}, "Category":"Physiology",  "PropertyName":"MeanArterialPressure",              "Unit":"mmHg"},
+      {"DecimalFormat":{}             , "Category":"Physiology",  "PropertyName":"SystolicArterialPressure",          "Unit":"mmHg"},
+      {"DecimalFormat":{"Precision":1}, "Category":"Physiology",  "PropertyName":"DiastolicArterialPressure",         "Unit":"mmHg"},
+      {"DecimalFormat":{"Precision":3}, "Category":"Physiology",  "PropertyName":"OxygenSaturation",                  "Unit":"unitless"},
+      {"DecimalFormat":{"Precision":4}, "Category":"Physiology",  "PropertyName":"EndTidalCarbonDioxideFraction",     "Unit":"unitless"},
+      {"DecimalFormat":{"Precision":2}, "Category":"Physiology",  "PropertyName":"RespirationRate",                   "Unit":"1/min"},
+      {"DecimalFormat":{"Precision":1}, "Category":"Physiology",  "PropertyName":"SkinTemperature",                   "Unit":"degC"},
+      
+      {"DecimalFormat":{}             , "Category":"GasCompartment", "CompartmentName":"Carina", "SubstanceName":"Oxygen", "PropertyName":"PartialPressure", "Unit":"cmH2O"},
+    ]},
+    
+  "AnyAction": [{
+    "AdvanceTime": {
+      "Time": {
+        "ScalarTime": {
+          "Value": 5.0,
+          "Unit": "min"
+        }
+      }
+    }
+  }]
+}

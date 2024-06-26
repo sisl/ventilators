@@ -1,0 +1,25 @@
+{
+  "Name": "CarbonMonoxide",
+  "Density": {
+    "ScalarMassPerVolume": {
+      "Value": 1165.0,
+      "Unit": "g/m^3"
+    }
+  },
+  "MolarMass": {
+    "ScalarMassPerAmount": {
+      "Value": 28.01,
+      "Unit": "g/mol"
+    }
+  },
+  "State": "Gas",
+  "RelativeDiffusionCoefficient": {
+    "Value": 1.0
+  },
+  "SolubilityCoefficient": {
+    "ScalarInversePressure": {
+      "Value": 0.018,
+      "Unit": "1/atm"
+    }
+  }
+}
