@@ -305,7 +305,7 @@ class AgentSampleMPC(Agent):
 
         # Get the reward associated with this simulation's intermediate 
         # states and actions
-        R_states = [rewards.compute_state_reward(state)[0] for state in states]
+        R_states = [rewards.compute_state_reward(state, patient_object)[0] for state in states]
         R_actions = [rewards.compute_action_reward(action) for action in actions]
         R = sum(R_states) + sum(R_actions)
 
@@ -388,7 +388,7 @@ class AgentEmbed2Control(Agent):
         results = []
         for states, actions in futures:
             # Get the reward associated with this simulation's states
-            R_states = [rewards.compute_state_reward(state)[0] for state in states]
+            R_states = [rewards.compute_state_reward(state, patient_object)[0] for state in states]
             # And the reward associated with each action taken
             R_actions = [rewards.compute_action_reward(action) for action in actions]
             R = sum(R_states) + sum(R_actions)
@@ -473,7 +473,7 @@ class AgentEmbed2MPPI(Agent):
                 last_state = next_state
 
                 # State rewards
-                R_state, _ = rewards.compute_state_reward(next_state)
+                R_state, _ = rewards.compute_state_reward(next_state, patient_object)
                 total_reward += R_state
 
                 # Action rewards

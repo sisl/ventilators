@@ -6,9 +6,9 @@ saved
 .Trash-*
 results/*
 __pycache__
-# legacy - remember to not remove these!
-src/healthy_ranges.py 
-src/rewards.py
+# # legacy - remember to not remove these!
+# src/healthy_ranges.py 
+# src/rewards.py
 
 # Keep all the gitkeeps
 !**/.gitkeep

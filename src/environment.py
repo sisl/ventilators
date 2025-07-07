@@ -121,8 +121,8 @@ def simulate(
         pulse.advance_time_s(utils.TIME_PER_ACTION_S)
 
         # Perform tracking
-        R_state, R_state_components = rewards.compute_state_reward(data)
-        R_spo2, R_pao2, R_awrr, R_hr, R_ie = R_state_components
+        R_state, R_state_components = rewards.compute_state_reward(data, pat)
+        R_spo2, R_pao2, R_awrr, R_hr, R_ie, R_pplat, R_ph = R_state_components
         R_action = rewards.compute_action_reward(action)
         R_per_step = R_state + R_action
         # Add 100 to make it positive, note that this doesn't change the 
@@ -152,6 +152,8 @@ def simulate(
             "reward/Airway Respiratory Rate": R_awrr,
             "reward/Heart Rate": R_hr,
             "reward/I:E Ratio": R_ie,
+            "reward/Plateau Pressure": R_pplat,
+            "reward/Blood pH": R_ph,
         })
         
     # The simulation is complete!
